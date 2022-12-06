@@ -1,0 +1,119 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}   
+
+body {
+    background-color: rgb(185, 131, 131);
+}
+
+h1 {
+    width: 600px;
+    text-align: center;
+}
+
+#content {
+    width: 600px;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    border: solid 1px rgb(95, 76, 76);
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 20px 0 20px 0;
+}
+
+#content h1 {
+    margin-bottom: 20px;
+    border-bottom: solid 1px rgb(95, 76, 76);
+}
+
+.search {
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+.filter {
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+
+#filter {
+    width: 80px;
+}
+
+.addDiv {
+    border-top: solid 1px rgb(95, 76, 76);
+    border-bottom: solid 1px rgb(95, 76, 76);
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.add {
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+#but-add {
+    padding: 0px 30px 0px 30px;
+    background-color: rgb(192, 170, 170);
+    border-radius: 5px;
+    border-color: rgb(95, 76, 76);
+    margin-left: 3px;
+    height: 25px;
+}
+
+#but-search {
+    padding: 0px 20px 0px 20px;
+    background-color: rgb(192, 170, 170);
+    border-radius: 5px;
+    border-color: rgb(95, 76, 76);
+    margin-left: 3px;
+    height: 25px;
+}
+
+.send {
+    margin-left: 10px;
+}
+
+.todo, .done {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(95, 76, 76);
+    width: 568px;
+}
+
+.send, .edit, .remove {
+    padding: 0px 5px 0px 5px;
+    margin-left: 2px;
+    background-color: rgb(192, 170, 170);
+    border-radius: 5px;
+    border-color: rgb(95, 76, 76);
+    height: 25px;
+}
+
+.todo h3 {
+    flex: 1
+}
+
+.done h3 {
+    flex: 1;
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.done {
+    background-color: rgb(119, 107, 90);
+}
+
+.todo {
+    background-color: blanchedalmond;
+}

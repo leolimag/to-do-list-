@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/todo.js"></script>
+</head>
+<body>
+    <div id="content">
+       <h1>To do - List</h1> 
+       <form action="" class="form" name="formTodo">
+            <strong><label for="search" class="search">Search: </label></strong>
+            <input type="text" id="search">
+            <button id="but-search">Search</button>
+            
+            <strong><label for="filter" class="filter">Filter: </label></strong>
+            <select name="filter" id="filter">
+                <option value="all" selected onclick="filter()">All</option>
+                <option value="done" onclick="filter()">Done</option>
+                <option value="todo" onclick="filter()">To do</option>
+            </select>
+            
+            <div class="addDiv">
+                <strong><label for="add" class="add">Add a task: </label></strong>
+                <input type="text" id="add" name="add">
+                <button type="submit" id="but-add" onclick="addTask()">Add</button>
+            </div>
+            
+       </form> 
+       <div id="to-do">
+        
+       </div>  
+
+   </div> 
+
+    
+</body>
+</html>
