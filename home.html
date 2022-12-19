@@ -18,7 +18,7 @@
             
             <strong><label for="filter" class="filter">Filter: </label></strong>
             <select name="filter" id="filter">
-                <option value="all" selected onclick="filter()">All</option>
+                <option value="all" onclick="filter()">All</option>
                 <option value="done" onclick="filter()">Done</option>
                 <option value="todo" onclick="filter()">To do</option>
             </select>
@@ -26,7 +26,7 @@
             <div class="addDiv">
                 <strong><label for="add" class="add">Add a task: </label></strong>
                 <input type="text" id="add" name="add">
-                <button type="submit" id="but-add" onclick="addTask()">Add</button>
+                <button type="submit" id="but-add" onclick="addOnTaskList()">Add</button>
             </div>
             
        </form> 

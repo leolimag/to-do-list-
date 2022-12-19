@@ -91,7 +91,7 @@ h1 {
     width: 568px;
 }
 
-.send, .edit, .remove {
+.edit, .remove {
     padding: 0px 5px 0px 5px;
     margin-left: 2px;
     background-color: rgb(192, 170, 170);
@@ -116,4 +116,20 @@ h1 {
 
 .todo {
     background-color: blanchedalmond;
+}
+
+.done input:checked {
+    background-color: rgb(119, 107, 90);
+}
+
+.todo > input[type='checkbox']:checked  + h3 {
+    text-decoration: line-through;
+}
+
+.todo h3 {
+    padding-left: 10px;
+}
+
+.todo input[type='checkbox']{
+    margin-left: 5px;
 }
